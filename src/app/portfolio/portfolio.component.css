@@ -1,0 +1,63 @@
+
+#PORTFOLIO {
+    background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+    background-color: black;
+    color: white;
+
+
+}
+
+
+
+#PORTFOLIO div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+
+
+}
+
+
+hr {
+    width: 400px;
+}
+
+#PORTFOLIO div article {
+    background: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#PORTFOLIO div article p {
+    padding: 0 5px;
+}
+
+
+
+#PORTFOLIO h3,
+p,
+hr {
+    margin-bottom: 20px;
+}
+
+#PORTFOLIO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+#BIO img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 100px;
+}
+
+#BIO article * {
+    margin: 20px;
+}
+
+#BIO {
+    display: flex;
+    align-items: center;
+}
+
+.break {
+    display: block;
+}
+
+#HOME {
+    background: black;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: #f05136;
+    color: white;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    padding: 8px;
+    border-radius: 5%;
+    border-color: black;
+
+}

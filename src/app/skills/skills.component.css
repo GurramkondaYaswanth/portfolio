@@ -1,0 +1,61 @@
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+}
+
+::-webkit-progress-value {
+    background-color: #f05136;
+}
+
+#SKILLS ul {
+    font-size: 1em;
+}
+
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#skills ul {
+    list-style: none;
+
+}
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+#skills h4 {
+    text-align: center;
+}
+
+#SKILLS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
